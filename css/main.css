@@ -22,7 +22,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0.75em 0;
 }
 
-a         { color: #00a; }
+hr {
+  margin: 1em 0;
+  border: 2px solid #eee;
+}
+
+a { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 

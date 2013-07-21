@@ -38,7 +38,7 @@ Szóval így indult. Válaszoltam az üzenetre, elküldtem az önéletrajzom és
 
 #### Második lépcsőfok
 Pár napon belül érkezett egy telefonhívás. A fejvadász hölgy felhívott és körülbelül 20 perc alatt kifaggatott (persze angolul): mihez értek, mit csináltam eddig, milyen munkahelyeim voltak, miért akarok váltani, mi tetszett az eddigi munkáimban, és a legfontosabb: 
-<i>mit szeretnék csinálni leginkább</i>.
+*mit szeretnék csinálni leginkább*.
 
 Nagyon megtetszett hogy itt nem csak arról van szó, hogy végigméricskélnek mint valami húsállatot vágás előtt, hanem meg is kérdeznek arról, hogy én mit is szeretnék csinálni. Nem rántott hús akarok lenni, legyek inkább valami emlékezetes, ha már lehet választani :)
 
@@ -80,10 +80,10 @@ A végén megígérte hogy küld egy tesztet e-mailben, azt ahogy kényelmes old
 
 
 #### Teszt: hetedik lépcsőfok
-Megérkezett a teszt. Egy blackjack játékot kellett írni  <a href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a>-ban, nulláról, úgy, mintha egy profi minőségű szoftvert írnék. A részletekkel most nem bonyolítom a dolgokat, de nem kellett grafikát csinálni hozzá -- stdin-re kellett működjön és stdout-ra dobta ki a dealt meg az eredményt.
+Megérkezett a teszt. Egy blackjack játékot kellett írni  [Ruby](http://www.ruby-lang.org/en/)-ban, nulláról, úgy, mintha egy profi minőségű szoftvert írnék. A részletekkel most nem bonyolítom a dolgokat, de nem kellett grafikát csinálni hozzá -- stdin-re kellett működjön és stdout-ra dobta ki a dealt meg az eredményt.
 
 Beletelt két estébe, közben beletanultam a 
-<a href="http://cukes.info/" target="_blank">Cucumber</a> és <a href="http://www.mattsears.com/articles/2011/12/10/minitest-quick-reference" target="_blank">Minitest</a> dolgaiba kb. nulláról. A végén már olyan feature és unit tesztek voltak benne amikkel elégedett voltam és akkor elküldtem nekik az eredményt.
+[Cucumber](http://cukes.info/) és [Minitest](http://www.mattsears.com/articles/2011/12/10/minitest-quick-reference) dolgaiba kb. nulláról. A végén már olyan feature és unit tesztek voltak benne amikkel elégedett voltam és akkor elküldtem nekik az eredményt.
 
 Pár nappal később jött egy válasz, hogy hogyan kell futtatni a dolgot. Hoppá. Tanulság: futtatható szoftvernél, bármilyen egyértelműnek is tűnik (Ruby-nál azért eléggé ismert megoldások léteznek), azért csak csatoljuk a "how to run" leírást is minden esetben.
 
@@ -93,8 +93,8 @@ Egy órával később jött egy újabb telefon: marhára elégedettek voltak a p
 
 Mindenképpen legyen egy jó érvem arról, hogy miért akarok Londonba menni, miért akarok náluk dolgozni, miért akarok azzal foglalkozni, ami a munkaköri leírásban szerepelt. Az ugyebár nem egyezett azzal amire felvenni akarnak, de sebaj, jólszituált választ arra, hogy miért szeretnék Londonba menni, nem volt nehéz találni: itthon egyszerűen nem találtam olyan állást, ahol lett volna lehetőség Ruby-val foglalkozni.
 
-Ezen túl elég arra gondolni hogy élnek Londonban olyan emberkék mint <a href="http://www.higherorderlogic.com/" target="_blank">Steve Freeman</a>, van community, érnek az új dolgok, lehet egy kicsit a forróbb részen is lenni, nem csak a domináló J2EE árnyékában. Persze itthon is van startup, van jó cég, vannak nagyon szerenlévő emberek. Ki kell próbálni. Meg azért a fizetés sem volt az utolsó szempont. Ennek ellenére ha nem jön be a kinti szakmai élet, akkor nem fogok csak a fizetésért ott lógni. Kódnélküli manager meg nem akarok lenni.
+Ezen túl elég arra gondolni hogy élnek Londonban olyan emberkék mint [Steve Freeman](http://www.higherorderlogic.com/), van community, érnek az új dolgok, lehet egy kicsit a forróbb részen is lenni, nem csak a domináló J2EE árnyékában. Persze itthon is van startup, van jó cég, vannak nagyon szerenlévő emberek. Ki kell próbálni. Meg azért a fizetés sem volt az utolsó szempont. Ennek ellenére ha nem jön be a kinti szakmai élet, akkor nem fogok csak a fizetésért ott lógni. Kódnélküli manager meg nem akarok lenni.
 
-Nade: a nem szakmai érv pedig az, hogy London egy mesésített&nbsp;(<a href="http://www.amazon.com/Neverwhere-Neil-Gaiman/dp/0380789019" target="_blank">Neverwhere</a>!), híres, irodalomban és filmekben mindenhol felbukkanó város, amiben szerintem nekem (nekünk a menyasszonyommal) mindenképpen érdemes megpróbálni élni -- legalább egy ideig. Én megszerettem a pubokat is :)
+Nade: a nem szakmai érv pedig az, hogy London egy mesésített&nbsp;([Neverwhere](http://www.amazon.com/Neverwhere-Neil-Gaiman/dp/0380789019)!), híres, irodalomban és filmekben mindenhol felbukkanó város, amiben szerintem nekem (nekünk a menyasszonyommal) mindenképpen érdemes megpróbálni élni -- legalább egy ideig. Én megszerettem a pubokat is :)
 
 Így felkészülve vártam a második interjút: de annak története egy új bejegyzésben lesz.
