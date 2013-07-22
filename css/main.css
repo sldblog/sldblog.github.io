@@ -118,8 +118,7 @@ table.categories {
 
 table.categories td {
   vertical-align: top;
-  padding: 0.1em 1em;
-  border-left: 1em solid #efe7dd;
+  padding: 0.1em 0 0.1em 1em;
 }
 
 hr {
