@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: A második kérdés
 date: 2013-01-09

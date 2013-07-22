@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Kötelező körök
 date: 2013-02-06

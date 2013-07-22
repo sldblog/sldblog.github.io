@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Akartam egy bankszámlát
 date: 2013-02-10

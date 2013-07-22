@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: They see me oystering...
 date: 2013-02-20

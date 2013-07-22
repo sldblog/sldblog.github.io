@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: A második kérdés második fele
 date: 2013-01-13

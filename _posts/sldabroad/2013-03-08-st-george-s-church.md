@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: St. George's Church
 date: 2013-03-08

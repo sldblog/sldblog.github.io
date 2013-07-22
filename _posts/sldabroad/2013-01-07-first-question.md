@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Az első kérdés
 date: 2013-01-07

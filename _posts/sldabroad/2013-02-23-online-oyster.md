@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Online oyster
 date: 2013-02-23

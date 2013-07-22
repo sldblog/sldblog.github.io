@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Still comfy! Ha.
 date: 2013-04-13

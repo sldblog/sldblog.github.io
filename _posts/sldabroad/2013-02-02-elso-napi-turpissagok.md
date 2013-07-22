@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Első napi turpisságok
 date: 2013-02-02

@@ -1,4 +1,5 @@
 ---
+categories: sldabroad
 layout: post
 title: Oh so comfy, tale two
 date: 2013-04-05
