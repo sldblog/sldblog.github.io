@@ -153,7 +153,8 @@ ul.posts span {
 .post p code {
   border: 1px solid #9cf;
   background-color: #d6eaff;
-  padding: 0.1em 0.2em;
+  padding: 0.1em 0.4em;
+  border-radius: 999px;
 }
 
 .post ul, .post ol {
