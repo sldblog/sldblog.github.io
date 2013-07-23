@@ -19,7 +19,7 @@ div.post {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather Sans', sans-serif;
-  margin: 1em 0 0.75em 0;
+  margin: 2em 0 1em 0;
   color: #064066;
 }
 
@@ -60,18 +60,13 @@ ul.posts span {
   font-size: 115%;
   text-align: justify;
   width: 980px;
-  margin: 3em auto 2em;
+  margin: 2em auto 2em;
   line-height: 1.5em;
 }
 
 .site .header a {
   font-weight: bold;
   text-decoration: none;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
 }
 
 .site .header a.extra {
@@ -108,7 +103,7 @@ ul.posts span {
 }
 
 .post ul, .post ol {
-  margin-left: 1.35em;
+  margin: 1em 2em;
 }
 
 table.categories {
@@ -129,6 +124,12 @@ hr {
 blockquote {
   border-left: 0.5em solid #dfd0bb;
   padding: 0 1em;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  margin: 0.5em 0;
+  border-bottom: 4px solid #dfd0bb;
 }
 
 .site .footer {
