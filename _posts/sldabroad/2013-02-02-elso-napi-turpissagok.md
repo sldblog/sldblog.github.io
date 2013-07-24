@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Első napi turpisságok
-date: 2013-02-02
-comments: false
 ---
 
 Kiutaztam tehát -- furcsa érzés one-way repülőjegyet venni -- és természetesen voltak olyan dolgok amik

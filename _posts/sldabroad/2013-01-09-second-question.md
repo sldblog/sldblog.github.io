@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: A második kérdés
-date: 2013-01-09
-comments: true
 ---
 
 A tipikus második kérdés az, hogy hogyan zajlott az interjúzás és általában véve meséljek már a dolgokról. Ekkora fogalmazványt legutóbb iskolában írtam (mert muszáj volt), de itt van:

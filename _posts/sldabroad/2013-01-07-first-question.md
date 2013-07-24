@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Az első kérdés
-date: 2013-01-07
-comments: false
 ---
 
 Megyek Londonba dolgozni. Programozó leszek egy online játékokat fejlesztő cégnél, ahol egy Ruby-ban megírt közepes rendszert kell Java-ra átírni.

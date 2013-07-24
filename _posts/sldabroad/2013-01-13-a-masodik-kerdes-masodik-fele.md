@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: A második kérdés második fele
-date: 2013-01-13
-comments: false
 ---
 
 Tehát ott tartunk, hogy vártam a második szóbeli interjúmat.

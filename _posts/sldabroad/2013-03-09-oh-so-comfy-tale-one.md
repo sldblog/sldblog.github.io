@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Oh so comfy, tale one
-date: 2013-03-09
-comments: false
 ---
 
 Amikor Magyarországról már sokadik hete nem sikerült lakást szereznem, beadtam a derekam és elmentem iranylondon-ékhoz, azzal a nem titkolt szándékkal, hogy lehúzok egy hónapot és az alatt az idő alatt jól bejárom London-t.

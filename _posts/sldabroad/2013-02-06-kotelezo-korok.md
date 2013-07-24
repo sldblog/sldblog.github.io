@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Kötelező körök
-date: 2013-02-06
-comments: false
 ---
 
 Aki komolyabban utánaolvasott az angliai életnek, az már valószínűleg tud arról, hogy kell a

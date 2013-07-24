@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Akartam egy bankszámlát
-date: 2013-02-10
-comments: false
 ---
 
 Dolgozom határozatlan szerződéssel, van címem, útlevelem és levelem is a munkáltatótól ami lényegében a "proof of address". Ezekkel a táskámban elindultam bankszámlát nyitni szombaton.

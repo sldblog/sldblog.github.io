@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: They see me oystering...
-date: 2013-02-20
-comments: false
 ---
 
 A londoni metró- (és busz- és vonat-) elképesztően nagy és komplex, elsőre ijesztő lehet. Metrótérképet mindenki látott már, de néztétek a [metró/vonat/villamos térképet](http://www.tfl.gov.uk/assets/downloads/london-rail-and-tube-services-map.pdf)?

@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Online oyster
-date: 2013-02-23
-comments: false
 ---
 
 Akartam az Oyster online erősségeiről is írni, mert nekem ez az oldala is nagyon imponál.

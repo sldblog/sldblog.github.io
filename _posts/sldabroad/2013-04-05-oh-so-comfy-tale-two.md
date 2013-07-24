@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Oh so comfy, tale two
-date: 2013-04-05
-comments: false
 ---
 
 Meguntam február közepén a rightmove nézegetését és a folyamatos visszautasításokat, ezért Ági tanácsára fogtam magam egy szép szombati napon és lezörögtem Beckenham Junction-be, lesz ami lesz alapon. Azt már korábban megfigyeltem a néhány házlátogatásomnál, hogy az agency-k rendre kényelmes távolságban próbálnak lenni a vonatállomásoktól, és a hasonló jelentős embertömeget megmozgató helyektől.

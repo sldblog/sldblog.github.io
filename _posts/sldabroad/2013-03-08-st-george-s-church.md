@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: St. George's Church
-date: 2013-03-08
-comments: false
 ---
 
 Felengedett a BT Open WiFi, ezért tehát tudom írni a blogot :)

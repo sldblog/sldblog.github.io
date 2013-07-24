@@ -2,8 +2,6 @@
 categories: sldabroad
 layout: post
 title: Still comfy! Ha.
-date: 2013-04-13
-comments: false
 ---
 
 A negyedik fajta teát próbálom ki mert azért vannak iszonyúan finomak is. A tea azért kell hogy nekiálljak ennek a fejezetnek, hogy lehetőleg ne legyen dögunalmas.
