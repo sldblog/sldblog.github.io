@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 div.post {
@@ -106,6 +106,19 @@ ul.posts span {
   margin: 1em 2em;
 }
 
+.post ul ul, .post ol ol, .post ul ol, .post ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post li p:first-child {
+  margin: 0;
+}
+
+.post li {
+  margin: 0.25em 0;
+}
+
 table.categories {
   width: 100%;
   table-layout: fixed;
@@ -124,6 +137,8 @@ hr {
 blockquote {
   border-left: 0.5em solid #dfd0bb;
   padding: 0 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .site .header h1.title {
