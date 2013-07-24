@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: #f2efe4;
-  font: 11pt Georgia, serif;
-  text-align: center;
+  background-color: #f8f7f1;
+  font: 12pt "Georgia", serif;
+  text-align: left;
 }
 
 p {
@@ -26,40 +26,24 @@ h1, h2, h3, h4, h5, h6 {
 a { color: #0b70b3; }
 a:hover   { color: #dfd0bb; }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
+/* Home */
 ul.posts {
   list-style-type: none;
 }
 
 ul.posts li {
-  line-height: 1.75em;
+  line-height: 175%;
 }
 
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Consolas", "Courier New", monospace;
-  font-size: 70%;
+  font-size: 9pt;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
+/* Site */
 .site {
-  font-size: 115%;
-  text-align: justify;
-  width: 980px;
+  width: 900px;
   margin: 2em auto 2em;
   line-height: 1.5em;
 }
@@ -73,33 +57,85 @@ ul.posts span {
   margin-left: 1em;
 }
 
-.site .meta {
-  color: #aaa;
+.site .header h1.title {
+  font-size: 150%;
+  text-align: center;
+  margin: 0.5em 0 32px 0;
+  padding: 0 0 32px 0;
+  border-bottom: 1px solid #aaa;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+.site .maintitle {
+  text-align: center;
+  font-size: 200%;
+  margin: 32px 0 16px 0;
+  padding: 16px 0;
+}
+
+.site .meta {
+  color: #aaa;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  margin: 0 auto;
+  width: 8em;
+  text-align: center;
+  background-color: white;
+  padding: 0.3em 0;
+  font-size: 9pt;
+}
+
+.site hr.metaline {
+  border: none;
+  border-top: 1px solid #aaa;
+  top: -32px;
+  position: relative;
+  z-index: -10;
+}
+
+.site .footer {
+  font-size: 9pt;
+  color: #aaa;
+  border-top: 1px solid #aaa;
+  margin-top: 2em;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  margin-right: 3em;
+}
+
+.site .footer .contact p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Posts */
 
 /* standard */
-.post pre, .post code {
+.post pre, .post code, .gist pre.line-pre, .gist span.line-number {
   font-family: Monaco, "Consolas", "Courier New", monospace;
-  font-size: 90%;
+  font-size: 10pt;
+}
+
+.gist .gist-file .gist-meta {
+  font-size: 9pt !important;
+  line-height: 100%;
 }
 
 .post pre {
   margin: 0.5em 0;
   border-left: 0.5em solid #dfd0bb;
-  padding: 0.25em 0 0.25em 0.5em;
+  padding: 0 0 0 0.5em;
 }
 
 .post p code {
   border: 1px solid #dfd0bb;
   background-color: #efe7dd;
-  padding: 0.1em 0.4em;
-  border-radius: 999px;
+  padding: 0.1em 0.2em;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
 }
 
 .post ul, .post ol {
@@ -139,27 +175,4 @@ blockquote {
   padding: 0 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin: 0.5em 0;
-  border-bottom: 4px solid #dfd0bb;
-}
-
-.site .footer {
-  font-size: 80%;
-  color: #aaa;
-  border-top: 4px solid #dfd0bb;
-  margin-top: 2em;
-  padding-top: 1em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  margin-right: 3em;
-}
-
-.site .footer .contact p {
-  margin: 0;
 }
