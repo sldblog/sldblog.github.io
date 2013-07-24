@@ -113,7 +113,10 @@ ul.posts span {
 
 /* Posts */
 
-/* standard */
+.post {
+  margin: 32px 32px 48px;
+}
+
 .post pre, .post code, .gist pre.line-pre, .gist span.line-number {
   font-family: Monaco, "Consolas", "Courier New", monospace;
   font-size: 10pt;
@@ -160,9 +163,13 @@ table.categories {
   table-layout: fixed;
 }
 
+table.categories h2 {
+  margin: 0 0 24px;
+}
+
 table.categories td {
   vertical-align: top;
-  padding: 0.1em 0 0.1em 1em;
+  padding: 0.1em 0 0.1em;
 }
 
 hr {
