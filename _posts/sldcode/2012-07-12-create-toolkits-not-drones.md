@@ -2,7 +2,6 @@
 categories: sldcode
 layout: post
 title: Create toolkits, not drones
-date: 2012-07-12
 ---
 
 ### Frustration

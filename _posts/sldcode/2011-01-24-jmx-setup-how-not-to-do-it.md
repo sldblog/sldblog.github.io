@@ -2,8 +2,6 @@
 categories: sldcode
 layout: post
 title: JMX setup, how *not* to do it
-date: 2011-01-24
-comments: false
 ---
 
 You may want to monitor your Java server with `jconsole`. It once happened to us while using a custom tomcat installation that it simply failed to finish the deploy scripts. The problem was that the JMX options were included in `catalina.sh`:

@@ -1,0 +1,100 @@
+---
+categories: sldcode
+layout: post
+title: Do you have IDEA?
+---
+
+<style type="text/css">
+.good, .bad { font-weight: bold; padding-left: 1em; }
+.good { color: #090; border-left: 1em solid #9f9; }
+.bad { color: #900; border-left: 1em solid #f99; }
+</style>
+
+<h3>Prelude</h3>
+
+<p>This post is intended as an introduction to why I love working with <a href="http://www.jetbrains.com/idea/features/index.html">IntelliJ IDEA</a>. If you haven't heard of it yet, it is an IDE, just like Eclipse or NetBeans, the only material difference being that it has an edition that costs money (but you can get a free open source license).</p>
+
+<p>During this "review" I will be using the following notation to present my pros and cons:
+<p class="good">This is something I like a lot.</p>
+<p class="bad">This is something I don't like.</p>
+</p>
+
+<h3>Pricing</h3>
+
+<p>After I have been using it for a few months I can say that it seems that being an essentially non-free product is a good thing: it feels that they are actively seeking to deliver better and more comfortable usage. It feels that their team doesn't just put in features, they try to do it in a way that is natural and easy-to-use and cool.</p>
+
+<h3>Disclaimer</h3>
+
+<p>These are just some of the experiences I noticed while coding. IDEA offers a lot more little "wow that was easy" or "wow that was clever" feelings, whenever it does something that feels just right in that situation. Those can only be experienced while watching someone working in IDEA, or better yet, trying it out for a few months.</p>
+
+<p>I will probably post updates with new things in the future -- I will try to document all these moments when they occur.</p>
+
+
+<!--more-->
+<h3>The bits</h3>
+
+
+<h4 class="good">Quicker navigation and pathfinding with test colouring.</h4>
+
+<p>Do you have tests? Probably, and if not you will probably have in the future. IDEA employs a very simple concept: all source that is marked "test source" should be coloured green in editor tabs. From IDEA 12 project viewer also has nice background highlighting.</p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-c5crn3-LB_I/UNL24tdg_MI/AAAAAAAABH8/IWmzqH3ATiQ/s1600/idea12-test-colouring.PNG" imageanchor="1" style="margin-left:1em; margin-right:1em"><img border="0" height="68" width="480" src="http://3.bp.blogspot.com/-c5crn3-LB_I/UNL24tdg_MI/AAAAAAAABH8/IWmzqH3ATiQ/s480/idea12-test-colouring.PNG" /></a>
+</div>
+
+<p>Naturally this makes navigating between editor tabs quicker and navigating between source folders less confusing. I had a few mishaps dragging classes to the test sources instead of normal sources and vice versa. No more of that.</p>
+
+
+<h4 class="good">Collapse lambda-like anonymous classes</h4>
+
+<p>Did you ever frown over the boilerplate of one anonymous class to specify one line of real code? Well, Java&nbsp;8 will solve that, but until that IDEA can collapse such code to omit the "useless" parts:</p>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-5R1Vf48ILK0/UNL-hSu8DVI/AAAAAAAABIU/JHvsTjH-muA/s1600/idea-anon-base.png" imageanchor="1" style="margin-left:1em; margin-right:1em"><img border="0" src="http://2.bp.blogspot.com/-5R1Vf48ILK0/UNL-hSu8DVI/AAAAAAAABIU/JHvsTjH-muA/s1600/idea-anon-base.png" /></a></div>
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-Svv7MpvN6YY/UNL-htYjX1I/AAAAAAAABIg/QdH3lo9VPto/s1600/idea-anon-hover.png" imageanchor="1" style="margin-left:1em; margin-right:1em"><img border="0" src="http://2.bp.blogspot.com/-Svv7MpvN6YY/UNL-htYjX1I/AAAAAAAABIg/QdH3lo9VPto/s1600/idea-anon-hover.png" /></a></div>
+
+<p>Again this is a readability feature which I think is brilliant.</p>
+
+
+<h4 class="good">Auto-completion tries to be useful and not wasteful.</h4>
+
+<p>When something auto-completes a function for me and puts the parentheses in, I usually end up clearing everything in the end because that is not what I wanted; I only wanted the name of the method, and I want to write the rest.</p>
+
+<p>IDEA manages somehow to position the caret and parentheses and arguments in a way that did not feel like hinderance to me. This is all subjective, but all the completion felt much more close to what I (as a developer) would naturally do, instead of just following some rules of auto-completion.</p>
+
+
+<h4 class="good">Auto-completion without Ctrl+Space.</h4>
+
+<p>When I start typing IDEA automatically offers things, even modifiers like <code>public</code> or types as <code>void</code>. This makes writing new methods and new code much easier, while not using code generators (generate getter/setters... don't use them).</p>
+
+<p>Selecting something in the pop-up list and pressing dot <code>.</code> will insert the selected thing, insert a dot at the end and position the caret after the dot. Again, much faster than "Enter, End, dot".</p>
+
+
+<h4 class="good">Commenting a line jumps one line down.</h4>
+
+<p>How many times did you comment out lines by <code>Ctrl+/</code> <code>&darr;</code> <code>Ctrl+/</code> <code>&darr;</code> ?</p>
+
+<p>IDEA goes to the next line when you comment. So you will only have to push <code>/</code> repeatedly while holding <code>Ctrl</code>. Trivial and useless? No. Saves you time when all you want is to quickly comment out lines. You don't have to select the lines, you just comment away. (But do be a good guy and not commit comments.)</p>
+
+
+<h4 class="good">No absolute paths, simple readable one module description XML.</h4>
+
+<p>IDEA has the notion of modules and projects. A project can have multiple modules, and modules are separate and independent entities. Configuring a module's dependencies and structure is very simple, and is possible with only one file:
+<script src="https://gist.github.com/4344825.js"></script>
+</p>
+
+<p>Do note that the directory is not hardwired into the file.</p>
+
+
+<h4 class="good">Looks good.</h4>
+
+<p>To me. Utterly subjective.</p>
+
+
+<h4 class="bad">Getting to the point of executing tests take a long time.</h4>
+
+<p>At least in my experience, executing the same batch of tests take a lot more time than in, say, Eclipse. I do not know the reason. There is a slight delay before the tests are started, I guess because they must be built, parsed and initialized.</p>
+
+<p>It is not a big slow-down, but I am used to instantaneous execution, so this is a pretty bad thing for me.</p>
