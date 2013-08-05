@@ -31,11 +31,11 @@ ul.posts {
   list-style-type: none;
 }
 
-ul.posts li {
-  line-height: 175%;
+.posts li {
+  line-height: 150%;
 }
 
-ul.posts span {
+.posts span {
   color: #aaa;
   font-family: Monaco, "Consolas", "Courier New", monospace;
   font-size: 9pt;
@@ -43,7 +43,6 @@ ul.posts span {
 
 /* Site */
 .site {
-  width: 900px;
   margin: 2em auto 2em;
   line-height: 1.5em;
 }
@@ -94,6 +93,7 @@ ul.posts span {
 }
 
 .site .footer {
+  clear: both;
   font-size: 9pt;
   color: #aaa;
   border-top: 1px solid #aaa;
@@ -158,21 +158,6 @@ ul.posts span {
   margin: 0.25em 0;
 }
 
-table.categories {
-  width: 100%;
-  table-layout: fixed;
-  margin: 32px 32px 48px;
-}
-
-table.categories h2 {
-  margin: 0 0 24px;
-}
-
-table.categories td {
-  vertical-align: top;
-  padding: 0.1em 0 0.1em;
-}
-
 hr {
   margin: 1em 0;
   border: 2px solid #dfd0bb;
@@ -183,4 +168,35 @@ blockquote {
   padding: 0 1em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+/* sizes */
+
+.site { width: 900px; }
+.site .category {
+  float: left;
+  width: 45%;
+  min-width: 45%;
+  margin: 0;
+  padding: 0 2.5% 16px 2.5%;
+}
+
+.site .category h2 {
+  margin: 0 0 24px;
+}
+
+@media screen and (max-width: 960px) and (orientation:portrait) {
+.site { width: 880px; }
+.site .category { width: 45%; min-width: 45%; }
+}
+
+@media screen and (max-width: 640px) {
+.site { width: 620px; }
+.site .category { width: 95%; min-width: 95%; }
+}
+
+@media screen and (max-width: 480px) and (orientation:portrait) {
+.site { width: 460px; line-height: 1.25em; }
+.site .category { width: 95%; min-width: 95%; }
+.posts span { font-size: 7pt; }
 }

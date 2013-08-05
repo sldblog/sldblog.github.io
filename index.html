@@ -6,23 +6,15 @@ categories:
   - sldcode
 ---
 
-<table class="categories">
-<tr>
 {% for category in page.categories %}
-  <th><h2>{{ category }}</h2></th>
+<div class="category">
+  <h2>{{ category }}</h2>
+  <ul class="posts">
+  {% for post in site.posts %}
+    {% if post.categories contains category %}
+      <li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>
 {% endfor %}
-</tr>
-<tr>
-{% for category in page.categories %}
-  <td>
-    <ul class="posts">
-    {% for post in site.posts %}
-      {% if post.categories contains category %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  </td>
-{% endfor %}
-</tr>
-</table>
