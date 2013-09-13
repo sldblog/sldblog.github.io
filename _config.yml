@@ -3,3 +3,4 @@ pygments: true
 safe: true
 lsi: false
 permalink: pretty
+markdown: redcarpet

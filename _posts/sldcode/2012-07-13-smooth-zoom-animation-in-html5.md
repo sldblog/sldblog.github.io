@@ -20,27 +20,29 @@ Wolfram Alpha is good resource to start looking when you're not exactly a math e
 
 The (draft of the) generalized diff function is:
 
-    var ValueDiffFunction = function(start_value, target_value, start_frame, target_frame) {
-      this.start_value = start_value;
-      this.target_value = target_value;
-      this.start_frame = start_frame;
-      this.target_frame = target_frame;
-    };
-    ValueDiffFunction.prototype.next_value = function(value, frame) {
-      if (this.target_value == null) {
-        return value;
-      }
-      var result = value;
-      if (frame >= this.target_frame) {
-        result = this.target_value;
-      } else {
-        var total_value_diff = this.target_value - this.start_value;
-        var total_frames = this.target_frame - this.start_frame;
-        var n = frame - this.start_frame;
+```javascript
+var ValueDiffFunction = function(start_value, target_value, start_frame, target_frame) {
+  this.start_value = start_value;
+  this.target_value = target_value;
+  this.start_frame = start_frame;
+  this.target_frame = target_frame;
+};
+ValueDiffFunction.prototype.next_value = function(value, frame) {
+  if (this.target_value == null) {
+    return value;
+  }
+  var result = value;
+  if (frame >= this.target_frame) {
+    result = this.target_value;
+  } else {
+    var total_value_diff = this.target_value - this.start_value;
+    var total_frames = this.target_frame - this.start_frame;
+    var n = frame - this.start_frame;
 
-        var steepness = 4;
-        var functionresult = coth(steepness) * tanh((steepness / total_frames) * n);
-        result = this.start_value + total_value_diff * functionresult;
-      }
-      return result;
-    };
+    var steepness = 4;
+    var functionresult = coth(steepness) * tanh((steepness / total_frames) * n);
+    result = this.start_value + total_value_diff * functionresult;
+  }
+  return result;
+};
+```
