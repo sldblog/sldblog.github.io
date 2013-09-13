@@ -28,7 +28,7 @@ The explanation is pretty simple, but as usual it boils down to a few little fac
 * `rand` in this case is *not* `Kernel::rand`... it's a FactoryGirl thing, which incidentally returns an ... array.
 * The [`*` operator](http://www.ruby-doc.org/core-2.0/Array.html#method-i-2A) is defined on `Array`.
 * An array times a really high value (eg. `1379090083.786906`) is the array duplicated as many times as the right side argument.
-* Creating an array that has `1 379 090 084` one-byte elements is bad enough, imagine this with a 44 element badass sitting on the left side screaming "dupe me".
+* Creating an array that has `1 379 090 083` one-byte elements is bad enough, imagine this with a 44 element badass sitting on the left side screaming "dupe me".
 
 The best thing in this is that who the hell expects something like `rand` to be overwritten.
 
