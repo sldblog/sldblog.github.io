@@ -16,12 +16,16 @@ The result is off by one millisecond.
 ## Workaround
 
 This can be worked around by using either a non-zero additional millisecond digit in mktime, *or*
-using the `round` function before `iso8601`:
+using the `round` function before `iso8601` *or* using `to_f` and `Time.at`:
 
 ```ruby
 irb(main):004:0> Time.mktime(2013, 11, 2, 21, 27, 16.4241).iso8601(3)
 => "2013-11-02T21:27:16.424+00:00"
 irb(main):005:0> Time.mktime(2013, 11, 2, 21, 27, 16.424).round(3).iso8601(3)
+=> "2013-11-02T21:27:16.424+00:00"
+irb(main):006:0> Time.mktime(2013, 11, 2, 21, 27, 16.424).to_f
+=> 1383427636.424
+irb(main):007:0> Time.at(1383427636.424).iso8601(3)
 => "2013-11-02T21:27:16.424+00:00"
 ```
 
