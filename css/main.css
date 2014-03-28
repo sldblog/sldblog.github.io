@@ -97,7 +97,7 @@ ul.posts {
 .site hr.metaline {
   border: none;
   border-top: 1px solid #aaa;
-  top: -32px;
+  top: -2em;
   position: relative;
   z-index: -10;
 }
@@ -124,7 +124,7 @@ ul.posts {
 /* Posts */
 
 .post {
-  margin: 32px 32px 48px;
+  margin: 1em 1em 2em;
 }
 
 .post pre, .post code, .gist pre.line-pre, .gist span.line-number {
@@ -189,8 +189,7 @@ blockquote {
 
 .site .content {
   margin: 0 auto;
-  width: 70%;
-  min-width: 900px;
+  width: 95%;
   max-width: 1200px;
 }
 .site .category {
@@ -206,16 +205,14 @@ blockquote {
 }
 
 @media screen and (max-width: 960px) and (orientation:landscape) {
-.site { width: 1024px; }
-.site .category { width: 45%; min-width: 45%; }
+  .site .category { width: 45%; min-width: 45%; }
 }
 
 @media screen and (max-width: 960px) and (orientation:portrait) {
-.site { width: 760px; }
-.site .category { width: 45%; min-width: 45%; }
+  .site .category { width: 45%; min-width: 45%; }
 }
 
 @media screen and (max-width: 480px) and (orientation:portrait) {
-.site { width: 460px; }
-.site .category { width: 95%; min-width: 95%; }
+  .site .content { font-size: 85%; }
+  .site .category { width: 95%; min-width: 95%; }
 }
