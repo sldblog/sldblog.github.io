@@ -5,7 +5,7 @@
 
 body {
   background-color: #f8f7f1;
-  font: 12pt "Georgia", serif;
+  font: 13pt "Georgia", serif;
   text-align: left;
 }
 
@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather Sans', serif;
   margin: 2em 0 1em 0;
   color: #064066;
+  text-shadow: 1px 1px 0px #dfd0bb;
 }
 
 a { color: #0b70b3; }
@@ -44,12 +45,20 @@ ul.posts {
 
 /* Site */
 .site {
-  margin: 2em auto 2em;
   line-height: 1.5em;
 }
 
-.site .header a {
+.site .header, .site .footer {
+  background: #2a2c2e;
+}
+
+.site .header a, .site .footer a {
+  color: white;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
   font-weight: bold;
+}
+
+.site .header a {
   text-decoration: none;
 }
 
@@ -60,8 +69,8 @@ ul.posts {
 .site .header h1.title {
   font-size: 150%;
   text-align: center;
-  margin: 0.5em 0 32px 0;
-  padding: 0 0 32px 0;
+  margin: 0em 0 1.5em 0;
+  padding: 1.5em 0;
   border-bottom: 1px solid #aaa;
 }
 
@@ -99,7 +108,7 @@ ul.posts {
   color: #aaa;
   border-top: 1px solid #aaa;
   margin-top: 2em;
-  padding-top: 1em;
+  padding: 1em 0;
   overflow: hidden;
 }
 
@@ -178,7 +187,12 @@ blockquote {
 
 /* sizes */
 
-.site { width: 900px; }
+.site .content {
+  margin: 0 auto;
+  width: 70%;
+  min-width: 900px;
+  max-width: 1200px;
+}
 .site .category {
   float: left;
   width: 45%;
