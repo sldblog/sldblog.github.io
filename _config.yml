@@ -1,5 +1,5 @@
 name: sldblogs
-pygments: true
+highlighter: pygments
 safe: true
 lsi: false
 permalink: pretty
