@@ -1,6 +1,4 @@
 name: sldblogs
-highlighter: pygments
 safe: true
 lsi: false
 permalink: pretty
-markdown: redcarpet
