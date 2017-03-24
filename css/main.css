@@ -148,7 +148,7 @@ ul.posts {
   overflow: scroll;
 }
 
-.post p code {
+.post p code, .post li code {
   border: 1px solid #dfd0bb;
   background-color: white;
   padding: 0.2em 0.3em;
